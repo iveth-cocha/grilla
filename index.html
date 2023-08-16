@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 1</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 <body>
@@ -69,7 +70,7 @@
             </div>
             <div class="contenido">
                 <p class="text">
-                    An overall wonderful and rewarding experience. 
+                    An overall wonderful and rewarding experience
                 </p>
                 <p class="op">
                     “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living while doing something I love. ”
@@ -94,26 +95,28 @@
             </div>
 
         </div>  
-        <!--
+
+        <div class="tarjeta tarjeta6">
+            <div id="typed-strings">
+                <p><strong>Integrantes</strong></p>
+                <p>Eduardo Almachi</p>
+                <p>Iveth Cocha</p>
+                <p>Brittany Espinel</p>
+                <p>David Vallejo</p>
+            </div> 
+            <span id="typed"></span>
+            <script>
+                    var typed =new Typed('#typed',{
+                        stringsElement: '#typed-strings',
+                        backSpeed:40,
+                        typeSpeed:50,
+                        loop: true 
+                    })
+            </script> 
+            
+            
+
+        </div>  
     </div>
-    <div id="typed-strings">
-        <p><strong>Integrantes</strong></p>
-        <p>Eduardo Almachi</p>
-        <p>Iveth Cocha</p>
-        <p>Brittany Espinel</p>
-        <p>David Vallejo</p>
-    </div> 
-    <span id="typed"></span>
-    <script>
-            var typed =new Typed('#typed',{
-                stringsElement: '#typed-strings',
-                backSpeed:40,
-                typeSpeed:40 
-            })
-    </script> 
-
-
-        -->    
-    
 </body>
 </html>
